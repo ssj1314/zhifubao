@@ -18,8 +18,6 @@
 		747C7BBD1D90C86D00A632DC /* SSJbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C7BBA1D90C86D00A632DC /* SSJbutton.m */; };
 		747C7BBE1D90C86D00A632DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C7BBC1D90C86D00A632DC /* ViewController.m */; };
 		747C7BC11D90C87500A632DC /* UIView+SS.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C7BC01D90C87500A632DC /* UIView+SS.m */; };
-		747C7BC81D90CCB500A632DC /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C7BC31D90CCB500A632DC /* MBProgressHUD+MJ.m */; };
-		747C7BC91D90CCB500A632DC /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 747C7BC41D90CCB500A632DC /* MBProgressHUD.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +59,6 @@
 		747C7BBC1D90C86D00A632DC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		747C7BBF1D90C87500A632DC /* UIView+SS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SS.h"; sourceTree = "<group>"; };
 		747C7BC01D90C87500A632DC /* UIView+SS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SS.m"; sourceTree = "<group>"; };
-		747C7BC21D90CCB500A632DC /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
-		747C7BC31D90CCB500A632DC /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
-		747C7BC41D90CCB500A632DC /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		F4ABC7C97C2934BE93FA8E44 /* Pods-zhifubaochongzhi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhifubaochongzhi.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhifubaochongzhi/Pods-zhifubaochongzhi.release.xcconfig"; sourceTree = "<group>"; };
 		FBE87A0859534F4583F35DE1 /* Pods_zhifubaochongzhi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhifubaochongzhi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,7 +122,6 @@
 		747C7B851D90C82200A632DC /* zhifubaochongzhi */ = {
 			isa = PBXGroup;
 			children = (
-				747C7BC71D90CCB500A632DC /* MBProgressHUD */,
 				747C7BBF1D90C87500A632DC /* UIView+SS.h */,
 				747C7BC01D90C87500A632DC /* UIView+SS.m */,
 				747C7BB91D90C86D00A632DC /* SSJbutton.h */,
@@ -169,17 +163,6 @@
 				747C7BAD1D90C82200A632DC /* Info.plist */,
 			);
 			path = zhifubaochongzhiUITests;
-			sourceTree = "<group>";
-		};
-		747C7BC71D90CCB500A632DC /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				747C7BC21D90CCB500A632DC /* MBProgressHUD+MJ.h */,
-				747C7BC31D90CCB500A632DC /* MBProgressHUD+MJ.m */,
-				747C7BC41D90CCB500A632DC /* MBProgressHUD.bundle */,
-			);
-			name = MBProgressHUD;
-			path = "../../../../Downloads/ABButton-master/ABButton/Other/MBProgressHUD";
 			sourceTree = "<group>";
 		};
 		AD652BE37A85CCA4FA6B86C1 /* Pods */ = {
@@ -256,12 +239,12 @@
 		747C7B7B1D90C82200A632DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = jiteng;
 				TargetAttributes = {
 					747C7B821D90C82200A632DC = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 9VC88V4JZN;
+						DevelopmentTeam = 85FNXMRSR7;
 					};
 					747C7B9B1D90C82200A632DC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -299,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				747C7B961D90C82200A632DC /* LaunchScreen.storyboard in Resources */,
-				747C7BC91D90CCB500A632DC /* MBProgressHUD.bundle in Resources */,
 				747C7B931D90C82200A632DC /* Assets.xcassets in Resources */,
 				747C7B911D90C82200A632DC /* Main.storyboard in Resources */,
 			);
@@ -374,7 +356,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747C7BC81D90CCB500A632DC /* MBProgressHUD+MJ.m in Sources */,
 				747C7B8B1D90C82200A632DC /* AppDelegate.m in Sources */,
 				747C7BC11D90C87500A632DC /* UIView+SS.m in Sources */,
 				747C7B881D90C82200A632DC /* main.m in Sources */,
@@ -448,8 +429,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -492,8 +475,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -521,7 +506,7 @@
 			baseConfigurationReference = 495F2D41E072553A2B250F21 /* Pods-zhifubaochongzhi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9VC88V4JZN;
+				DEVELOPMENT_TEAM = 85FNXMRSR7;
 				INFOPLIST_FILE = zhifubaochongzhi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiteng.com.zhifubaochongzhi;
@@ -534,7 +519,7 @@
 			baseConfigurationReference = F4ABC7C97C2934BE93FA8E44 /* Pods-zhifubaochongzhi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9VC88V4JZN;
+				DEVELOPMENT_TEAM = 85FNXMRSR7;
 				INFOPLIST_FILE = zhifubaochongzhi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiteng.com.zhifubaochongzhi;
